@@ -292,10 +292,31 @@ body {
 
 /*Fotos equipos (u. de negocios)*/
 
-#contenido5p1{
+.tit5{
+    font-family: 'Poppins', sans-serif;
+    color: #2D65BD;
+    cursor: pointer;
+    font-weight:bold;
+
+}
+
+.tit5:hover{
+    color: #1BB73D;
+}
+
+/*------------------------------EQUIPOS OIL AND GAS------------------------------------------*/
+#juntop1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 200px;
+}
+
+#parrafop1{
+    margin-top: -10px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 17px;
+    color: grey;
+    opacity: 0.9;
 }
 
 #foto5p1 {
@@ -305,25 +326,22 @@ body {
     border: 6px solid #0047ff;
 
 }
-
-.tit5{
-    font-family: 'Poppins', sans-serif;
-    color: #2D65BD;
-    cursor: pointer;
-    font-weight: lighter;
-    text-align: center;
-
-}
-
-.tit5:hover{
-    color: #1BB73D;
-}
-
-#contenido5p2{
+/*-----------------------------------------------------------------------------------------*/
+/*--------------------------------------EQUIPO CRIOGENICOS------------------------------------*/
+#juntop2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 200px;
 }
+
+#parrafop2{
+    margin-top: -10px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 17px;
+    color: grey;
+    opacity: 0.9;
+}
+
 
 #foto5p2 {
     width: 170px;
@@ -332,12 +350,23 @@ body {
     border: 6px solid #0047ff;
 
 }
+/*-----------------------------------------------------------------------------*/
 
-#contenido5p3{
+/*---------------------------------SOMETIDO A PRESION----------------------------------*/
+#juntop3{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 250px;
 }
+
+#parrafop3{
+    margin-top: -10px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 17px;
+    color: grey;
+    opacity: 0.9;
+}
+
 
 #foto5p3 {
     width: 170px;
@@ -351,21 +380,5 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-#desarrollo5{
-    display: flex;
-    flex-direction: row ;
-    justify-content: space-evenly;
-}
-
-#desarrollo5 p{
-    font-family: 'Figtree', sans-serif;
-    font-size: 17px;
-    color: grey;
-    opacity: 0.9;
-    margin-top: -10px;
-    width: 200px;
-    margin-left: 40px;
 }
 
