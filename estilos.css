@@ -27,10 +27,13 @@ body {
     align-items: center;
     color: #2D65BD;
     cursor: pointer;
+    /* margin-top: 0px; */
 }
 
 .texcab:hover{
     color: #1BB73D;
+    border-top: 5px solid #1BB73D;
+    margin-top: 0px;
 }
 
 
