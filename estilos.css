@@ -30,7 +30,7 @@ body {
     /* margin-top: 0px; */
 }
 
-.texcab:hover{
+.texcab:hover {
     color: #1BB73D;
     border-top: 5px solid #1BB73D;
     margin-top: 0px;
@@ -106,11 +106,12 @@ body {
         filter: opacity(0%);
     }
 }
+
 /*--------------------------------------CIRCULOS CAMBIO IMAGEN-----------------------------------*/
 #circulo1 {
     width: 10px;
     height: 10px;
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -141,7 +142,7 @@ body {
 #circulo2 {
     width: 10px;
     height: 10px;
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -169,7 +170,7 @@ body {
     }
 }
 
-#contcirc{
+#contcirc {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -178,20 +179,20 @@ body {
 
 /*-----------------------------------------------------------------------------------------------*/
 /*---------------------------------APARTADO QUIENES SOMOS-----------------------------------*/
-#contenido1{
+#contenido1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#coma{
+#coma {
     width: 20px;
     height: 60px;
     margin-top: 15px;
 }
 
 
-.titulos{
+.titulos {
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
     display: flex;
@@ -200,7 +201,7 @@ body {
     color: #2D65BD;
 }
 
-.desarrollo{
+.desarrollo {
     font-family: 'Figtree', sans-serif;
     font-size: 17px;
     column-count: 1;
@@ -212,29 +213,54 @@ body {
     opacity: 0.9;
 }
 
-/*----------------------------------------------------------------------------------*/
+/*------------------------------APARTADO VALORES HISTORIA,ETC------------------------------*/
 
-#contenido2{
+#contenido2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 100px;
 }
 
-.text2{
+.text2 {
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
     color: #2D65BD;
     cursor: pointer;
     margin-top: 0px;
 }
-.text2:hover{
+
+.text2:hover {
     color: #1BB73D;
 }
 
-.coma2{
-    scale: 0.1;
-    margin-top: -165px;
+.coma2 {
+    scale: 0.3;
+    margin-top: -45px;
     rotate: 230deg;
-    margin-left: -148px;
+    margin-left: -140px;
     display: flex;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+#fotogas {
+    width: 100%;
+    border-radius: 500px 0px 500px 0px;
+    margin-top: -40px;
+    display: flex;
+    border-right: 30px solid #1bb73d;
+    border-left: 30px solid #2d65bd;
+    z-index: 1;
+}
+
+#text3{
+    color: white;
+    z-index: 2;
+    display: flex;
+    margin-top: -450px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 450px;
+    scale: 1.5;
+    font-weight: lighter;
 }
