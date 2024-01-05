@@ -22,7 +22,6 @@ body {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     margin-left: 50px;
-    /* margin-top: 50px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -97,7 +96,7 @@ body {
         filter: opacity(0%);
     }
 }
-
+/*--------------------------------------CIRCULOS CAMBIO IMAGEN-----------------------------------*/
 #circulo1 {
     width: 10px;
     height: 10px;
@@ -165,4 +164,27 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#contenido1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#coma{
+    width: 20px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+
+.titulos{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2D65BD;
 }
