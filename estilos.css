@@ -1,0 +1,168 @@
+body {
+    margin-left: 0px;
+    left: 0px;
+    margin-top: 0px;
+    top: 0px;
+}
+
+.cabecera {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-left: 0px;
+    left: 0px;
+    border-bottom: 3px solid #0d53ff;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
+}
+
+.texcab {
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2D65BD;
+}
+
+#fotocab {
+    margin-left: 30px;
+}
+
+.idioma {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2D65BD
+}
+
+#idiomas {
+    display: flex;
+    margin-left: 80px;
+
+}
+
+#fotopas1 {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 600px 40px;
+    border-right: 30px solid #05b408;
+    animation-name: pasarfot1;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    margin-top: 103px;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-image: url(equipo\ 2.jpg);
+}
+
+@keyframes pasarfot1 {
+    50% {
+        filter: opacity(0%);
+    }
+
+    100% {
+        filter: opacity(100%);
+    }
+}
+
+#fotopas2 {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 600px 40px;
+    border-right: 30px solid #05b408;
+    margin-top: 103px;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    animation-name: pasarfot2;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes pasarfot2 {
+    50% {
+        filter: opacity(100%);
+    }
+
+    100% {
+        filter: opacity(0%);
+    }
+}
+
+#circulo1 {
+    width: 10px;
+    height: 10px;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: -70px;
+    z-index: 4;
+    position: relative;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-right: 10px;
+    animation-name: acir1;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes acir1 {
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+#circulo2 {
+    width: 10px;
+    height: 10px;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: -70px;
+    z-index: 4;
+    position: relative;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-right: 10px;
+    animation-name: acir2;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes acir2 {
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+#contcirc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
