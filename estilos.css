@@ -258,9 +258,19 @@ body {
     color: white;
     z-index: 2;
     display: flex;
-    margin-top: -450px;
+    margin-top: 160px;
     font-family: 'Poppins', sans-serif;
     margin-left: 450px;
     scale: 1.5;
     font-weight: lighter;
+}
+
+#textesp3{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-top: -650px;
+    margin-left: 950px;
+    display: flex;
+    z-index: 3;
 }
