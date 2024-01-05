@@ -26,10 +26,12 @@ body {
     flex-direction: row;
     align-items: center;
     color: #2D65BD;
+    cursor: pointer;
 }
 
 #fotocab {
     margin-left: 30px;
+    scale: 0.8;
 }
 
 .idioma {
@@ -176,15 +178,27 @@ body {
 #coma{
     width: 20px;
     height: 60px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 
 .titulos{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #2D65BD;
+}
+
+.desarrollo{
+    font-family: 'Figtree', sans-serif;
+    font-size: 17px;
+    column-count: 1;
+    padding-left: 110px;
+    padding-right: 110px;
+    text-align: justify;
+    color: grey;
+    line-height: 2;
+    opacity: 0.9;
 }
