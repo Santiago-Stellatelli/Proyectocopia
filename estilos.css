@@ -315,6 +315,10 @@ body {
 
 }
 
+.tit5:hover{
+    color: #1BB73D;
+}
+
 #contenido5p2{
     display: flex;
     flex-direction: column;
@@ -360,7 +364,7 @@ body {
     font-size: 17px;
     color: grey;
     opacity: 0.9;
-    margin-top: -20px;
+    margin-top: -10px;
     width: 200px;
     margin-left: 40px;
 }
