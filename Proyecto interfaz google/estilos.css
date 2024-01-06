@@ -1,3 +1,56 @@
+header{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    /* right: 0px; */
+    height: 90px;
+    flex-direction: row;
+    justify-content:center;
+    margin-left: 1020px;
+    margin-top: -10px;
+}
+
+header p{
+    margin-right: 30px;
+}
+
+#cuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+}
+
+#puntos{
+    scale: 1.3;
+    margin-top: 42px;
+    margin-left: -5px;
+}
+
+#foto{
+    scale: 2.0;
+    margin-top: 49px;
+    margin-left: 25px;
+}
+
+header p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#puntos:hover{
+    cursor: pointer;
+}
+
+#foto:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 body{
     width: 100%;
     display: flex;
