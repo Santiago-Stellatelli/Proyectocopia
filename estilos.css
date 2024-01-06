@@ -297,6 +297,7 @@ body {
     color: #2D65BD;
     cursor: pointer;
     font-weight:bold;
+    width: 280px;
 
 }
 
@@ -305,13 +306,13 @@ body {
 }
 
 /*------------------------------EQUIPOS OIL AND GAS------------------------------------------*/
-#juntop1{
+.juntop1{
     display: flex;
     flex-direction: column;
     width: 200px;
 }
 
-#parrafop1{
+.parrafop1{
     margin-top: -10px;
     font-family: 'Figtree', sans-serif;
     font-size: 17px;
@@ -319,7 +320,7 @@ body {
     opacity: 0.9;
 }
 
-#foto5p1 {
+.foto5p1 {
     width: 170px;
     height: 170px;
     border-radius: 50%;
@@ -328,13 +329,13 @@ body {
 }
 /*-----------------------------------------------------------------------------------------*/
 /*--------------------------------------EQUIPO CRIOGENICOS------------------------------------*/
-#juntop2{
+.juntop2{
     display: flex;
     flex-direction: column;
     width: 200px;
 }
 
-#parrafop2{
+.parrafop2{
     margin-top: -10px;
     font-family: 'Figtree', sans-serif;
     font-size: 17px;
@@ -343,7 +344,7 @@ body {
 }
 
 
-#foto5p2 {
+.foto5p2 {
     width: 170px;
     height: 170px;
     border-radius: 50%;
@@ -353,13 +354,13 @@ body {
 /*-----------------------------------------------------------------------------*/
 
 /*---------------------------------SOMETIDO A PRESION----------------------------------*/
-#juntop3{
+.juntop3{
     display: flex;
     flex-direction: column;
     width: 250px;
 }
 
-#parrafop3{
+.parrafop3{
     margin-top: -10px;
     font-family: 'Figtree', sans-serif;
     font-size: 17px;
@@ -368,7 +369,7 @@ body {
 }
 
 
-#foto5p3 {
+.foto5p3 {
     width: 170px;
     height: 170px;
     border-radius: 50%;
@@ -376,17 +377,16 @@ body {
 
 }
 
-#contiene5{
+.contiene5{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 /*------------------------------------------------------------------------------*/
-#todoinfo{
+.todoinfo1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* margin-top: -20px; */
 }
 
 .info5{
@@ -400,7 +400,7 @@ body {
 }
 
 /*-------------------------------+INFO P1-------------------------------------------*/
-#coma5p1{
+.coma5p1{
     scale: 0.08;
     rotate: 230deg;
     display: flex;
@@ -409,7 +409,7 @@ body {
     position: relative;
 }
 
-#info5p1{
+.info5p1{
     display: flex;
     margin-left: 180px;
     flex-wrap: wrap;
@@ -420,7 +420,7 @@ body {
 
 /*--------------------------------------------------------------------------*/
 /*-------------------------------+INFO P2-------------------------------------------*/
-#coma5p2{
+.coma5p2{
     scale: 0.08;
     rotate: 230deg;
     display: flex;
@@ -429,7 +429,7 @@ body {
     position: relative;
 }
 
-#info5p2{
+.info5p2{
     display: flex;
     margin-left: 140px;
     flex-wrap: wrap;
@@ -437,17 +437,12 @@ body {
     margin-top: -40px;
     position: relative;
 }
-
-
-
-
-
 
 
 /*--------------------------------------------------------------------------*/
 /*--------------------------------+INFO P3------------------------------------------*/
 
-#coma5p3{
+.coma5p3{
     scale: 0.08;
     rotate: 230deg;
     display: flex;
@@ -455,7 +450,7 @@ body {
     margin-left: -70px;
 }
 
-#info5p3{
+.info5p3{
     display: flex;
     margin-left: 140px;
     flex-wrap: wrap;
@@ -463,6 +458,6 @@ body {
     margin-top: -40px;
 }
 /*--------------------------------------------------------------------------*/
-
+/*--------------------------2DA PARTE (IGUAL QUE LA PRIMERA)------------------------------------------*
 
 
